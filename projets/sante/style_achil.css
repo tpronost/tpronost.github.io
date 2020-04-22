@@ -1,0 +1,237 @@
+body{
+    font:sans-serif;
+   
+}
+
+header {
+    height: auto;
+    z-index: 10;
+}
+.banniere {
+    background-color: #333;
+    background-image: url(images/la-securite-informatique-n-a-jamais-ete-si-serieuse.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+   
+}
+
+header h1 {
+    background-color: #184577;
+    color: #fff;
+    padding: 0 1rem;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+
+nav {
+    width: 100%;
+    height: 50px;
+    background: #184577;
+   
+}
+
+
+
+.text{
+    padding: 3%;
+ }
+
+nav ul {
+    list-style-type: none;
+    margin: 0 2% auto 0;
+    padding-left: 0;
+    text-align: left;
+    max-width: 100%;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin-left: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+p {
+  margin-bottom: 2em;
+}
+
+header {
+  border-bottom: solid 1px #e0e0e0;
+  margin: 0 0 20px 0;
+}
+
+.titre,
+.pageSubTitle {
+  font-family: 'Titillium', sans-serif;
+  text-transform: uppercase;
+  color: #333;
+}
+
+
+
+.titre {
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 2em;
+  color: #ffff;
+ 
+}
+
+.pageSubTitle {
+  margin-bottom: 1em;
+  font-size: 1.4em;
+  font-weight: 300;
+}
+
+.background {
+  background-color:darkgrey;
+  background-size: 100% auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1
+}
+
+.page {
+  width: 95%;
+  padding: 44px;
+  margin: 20px auto;
+  background: #fff;
+  box-shadow:  0px 3px 3px 1px rgba(0, 0, 0, 0.25);
+  border-radius:  10px 100px / 90px;
+    box-shadow:  12px 12px 2px 1px grey;
+
+}
+
+.lien {
+  transition: 0.4s;
+  color:  #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+.lien:hover {
+  background-color: #1f6bad;
+  color: #ffffff;
+  padding: 1px 10px;
+}
+
+.nav-3{
+    height: 30px;
+}
+
+
+.text{
+    padding: 3%;
+ }
+
+.foot{
+    background-color: #184577;
+    color: #fff
+}
+
+.page h1{
+    background-color: white;
+    color: #184577;
+}
+
+summary{
+    background-color: darkgrey;
+    font-size: 130%;
+    transition: 0.4s;
+    border-radius: 10px;
+    margin: 10px;
+   
+   
+}
+
+summary:hover{
+    background-color: #184577; 
+}
+
+summary:ebkit-details-marker {
+   display: none;
+}
+
+summary:after {
+   content: "+";
+   color: black;
+   float: left;
+   font-size: 1.5em;
+   margin: -10px 5px 0px 0px;
+   text-align: center;
+   width: 5%;
+}
+
+details[open] summary:after {
+   content: "-";
+}
+
+
+.docto{
+    color:#184577;
+   
+   
+   
+}
+
+.docto:hover{
+    text-decoration: none;
+    color: darkgrey;
+}
+
+footer{
+   
+background-color: #184577;
+text-align: center;
+font-size: 20px;
+    color:white;
+}
+
+.rea{
+
+text-align: center;
+font-size: 20px;
+   
+}
+
+.divreseaux{
+
+margin: 10px 0 0 0;
+letter-spacing: 50px;
+   
+}
+
+.contact{
+   
+    font-weight: bold;
+}
+       
+    @media screen and (max-width: 640px) {
+  .carousel {
+    display:none;
+  }
+    .haut{
+        display: none;
+    }
+   
+    footer p{
+        display: none;
+    }
+}
+        
